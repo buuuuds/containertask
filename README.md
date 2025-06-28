@@ -1,16 +1,19 @@
-# container
+# Flutter Container Application
 
-A new Flutter project.
+This is a simple Flutter application that demonstrates the use of the `Container` widget with different styles and text. It contains a vertical layout of three containers, each with unique colors and labels.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![AppBar titled "Container Application" with three colorful containers labeled "Hello World", "NT", and "BSU"](screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
+> *(You can add your own screenshot by naming the image `screenshot.png` and placing it in the repo root or updating the filename accordingly.)*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- A vertically aligned `Column` with three styled `Container` widgets
+- Custom styling using:
+  - `margin`
+  - `borderRadius`
+  - `border`
+  - `alignment`
+- Each container has different background colors and text
